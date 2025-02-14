@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family : monospace;
 }
 
 body, html 
@@ -13,38 +12,41 @@ body, html
 
 html
 {
-    background-color:#1f102a;
+    background-color: #1f102a;
 }
 
 .box
 {
     position: absolute;
+    overflow: auto;
+
     width: 100%;
     height: 100%;
-    padding: 1%;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+    border: 1px solid rgba(100, 100, 100, 0.5);
+    border-radius: 4px;
 }
 
 .container
 {
     position: absolute;
-    width: 95%;
-    height: fit-content;
+    
+    width: 100%;
+    height: 100vh;
 }
 
 .container-background
 {
     position: absolute;
-    height: 100%;
     width: 100%;
+    height: fit-content;
     background-position: center;
     background-size: cover; 
 
-    image-rendering: crisp-edges;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid #cc425e;
-    border-radius: 5px;
 
     z-index: -2;
 }
@@ -52,7 +54,7 @@ html
 .background
 {
     position: absolute;
-    height: 80%;
+    height: 100%;
     width: 100%;
     background-image: url('/src/images/screenshot-ud-1.png');
     background-position: center;
@@ -68,7 +70,7 @@ html
     display: flex;
     justify-content: center;
 
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 .logo-image
@@ -82,11 +84,10 @@ html
    
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 8%;
     justify-content: center;
 
     height: fit-content;
-    margin-bottom: 3%;
 }
 
 .button-container
@@ -99,16 +100,18 @@ html
     height: 56px;
     padding: 1px;
     
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid #cc425e;
 
     transition: border-color 0.18s;
+    transition: transform 0.18s;
 }
 
 .button-container:hover
 {
     border-color: #ffffff;
+    transform: scale(1.05);
 }
 
 .button-container:active
@@ -148,17 +151,25 @@ html
 
 .info-container
 {
-    display: flex;
+    position: absolute;
+
     width: 100%;
-    height: max-content;
-    padding-left: 5%;
-    padding-bottom: 1%;
+    height: fit-content;
+    padding-left: 19%;
+    margin-top: 2%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top: 1px solid rgba(100, 100, 100, 0.5);
 }
 
 .intro-paragraph
 {
-    font-family: monospace;
-    font-weight: 300;
-    font-size: 28px;
+    width: 80%;    
+
+    font-weight: 100;
+    font-size: 22px;
     color: #cc425e;
+    word-wrap: break-word;
+
+    margin-bottom: 1%;
 }
