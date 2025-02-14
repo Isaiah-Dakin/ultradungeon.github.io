@@ -36,7 +36,7 @@ button:hover
     transform: scale(1.3)
 }
 
-.logo-holder
+.logo
 {
     height: fit-content;
     display: flex;
@@ -45,9 +45,9 @@ button:hover
     margin-bottom: 15%;
 }
 
-.logo
+.logo-image
 {
-    width: fit-content;
+    width: 35%;
 }
 
 .background
