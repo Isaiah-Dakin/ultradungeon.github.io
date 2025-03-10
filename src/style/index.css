@@ -101,18 +101,17 @@ html
     height: 56px;
     padding: 1px;
     
-    border-radius: 4px;
+    border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid #cc425e;
 
-    transition: border-color 0.18s;
-    transition: transform 0.18s;
+    transition: all 0.18s ease;
 }
 
 .button-container:hover
 {
-    border-color: #ffffff;
-    transform: scale(1.05);
+    background-color: #cc425e;
+    transform: scale(1.1);
 }
 
 .button-container:active
@@ -152,7 +151,7 @@ html
 
 .info-container
 {
-    position: absolute;
+    position: relative;
 
     display: flex;
     flex-direction: column;
@@ -170,7 +169,7 @@ html
     border-top: 1px solid rgba(100, 100, 100, 0.5);
 }
 
-.intro-paragraph
+.intro-paragraph, .support-paragraph
 {
     position: relative;
     width: 80%;   
@@ -180,5 +179,10 @@ html
     color: white;
     word-wrap: break-word;
 
+    margin-bottom: 10%;
+}
+
+.support-paragraph
+{
     margin-bottom: 1%;
 }
