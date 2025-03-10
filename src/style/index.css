@@ -170,6 +170,17 @@ a:hover
     border-top: 1px solid rgba(100, 100, 100, 0.5);
 }
 
+.paragraph-header {
+    font-size: 60px;
+    font-weight: 900; 
+    color: #cc425e;
+}
+
+.inline-red {
+    font-weight: 900; 
+    color: #cc425e;
+}
+
 .intro-paragraph, .support-paragraph
 {
     position: relative;
