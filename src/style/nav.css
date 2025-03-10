@@ -1,6 +1,8 @@
 ﻿
 .nav {
-    position: relative;
+    position: sticky;
+    top: 0;
+    /* overflow: hidden; */
     z-index: 1;
     height: 10%;
 
