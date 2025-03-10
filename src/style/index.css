@@ -76,6 +76,7 @@ html
 .logo-image
 {
     width: 35%;
+    image-rendering: pixelated;
 }
 
 .buttons
@@ -153,10 +154,17 @@ html
 {
     position: absolute;
 
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+
     width: 100%;
     height: fit-content;
     padding-left: 19%;
     margin-top: 2%;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
 
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 1px solid rgba(100, 100, 100, 0.5);
@@ -164,11 +172,12 @@ html
 
 .intro-paragraph
 {
-    width: 80%;    
+    position: relative;
+    width: 80%;   
 
     font-weight: 100;
     font-size: 22px;
-    color: #cc425e;
+    color: white;
     word-wrap: break-word;
 
     margin-bottom: 1%;
