@@ -16,6 +16,17 @@ html
     background-color: #cc425e;
 }
 
+a, a:visited
+{
+    color: #cc425e;
+}
+
+a:hover
+{
+    cursor: pointer;
+    color: white;
+}
+
 .box
 {
     position: absolute;
