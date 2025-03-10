@@ -54,6 +54,7 @@
 .home-logo {
     height: 80%;
     transition: height 0.18s;
+    image-rendering: pixelated;
 }
 
 .home-logo {
