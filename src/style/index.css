@@ -171,7 +171,8 @@ a:hover
 }
 
 .paragraph-header {
-    font-size: 60px;
+    /* font-size: 60px;  */
+    font-size: 3.3rem; 
     font-weight: 900; 
     color: #cc425e;
 }
