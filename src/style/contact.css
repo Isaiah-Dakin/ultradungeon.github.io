@@ -1,0 +1,27 @@
+.info-container
+{
+    padding-left: 0%;
+    padding-top: 5vmin;
+    padding-bottom: 5vmin;
+
+    align-items: center;
+    justify-content: center;
+
+    border-style: double;
+}
+
+.intro-paragraph, .support-paragraph
+{
+    position: relative;
+    width: fit-content;   
+
+    padding: 5vmin;
+    margin-bottom: 0;
+
+    text-align: center;
+    word-wrap: break-word;
+
+    font-weight: 100;
+    font-size: 22px;
+    color: white;
+}
