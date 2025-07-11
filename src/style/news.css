@@ -1,0 +1,56 @@
+.post-container
+{
+    position: relative;
+    overflow: auto;
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+
+    background: none;
+}
+
+.post
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+
+    width: 100%;
+    height: fit-content;
+
+    padding: 2%;
+
+    background-color: black;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.5);
+}
+
+.post-paragraph
+{
+    position: relative;
+    width: 100%;   
+
+    font-weight: 100;
+    font-size: 22px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.video
+{
+    position: relative;
+    width: 40vw;
+    height: 35vh;
+
+    border: 1px solid #cc425e;
+}
+
+.info-container
+{
+    padding-left: 0%;
+}
