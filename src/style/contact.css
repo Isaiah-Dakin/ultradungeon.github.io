@@ -1,8 +1,8 @@
 .info-container
 {
     padding-left: 0%;
-    padding-top: 5vmin;
-    padding-bottom: 5vmin;
+    padding-top: 15vmin;
+    padding-bottom: 15vmin;
 
     align-items: center;
     justify-content: center;
@@ -24,4 +24,25 @@
     font-weight: 100;
     font-size: 22px;
     color: white;
+}
+
+.info-container
+{
+    background-color: transparent;
+    border: none;
+}
+
+.footer
+{
+    background-color: transparent;
+}
+
+.last-updated
+{
+    background-color: transparent;
+}
+
+.background
+{
+    background-image: url('/src/images/ud-background-4.jpg');
 }
