@@ -1,2 +1,2 @@
-# A personal site for fun :)
+# The Official ULTRADUNGEON Webpage Repo.
 Built using HTLM, CSS, React.js, & Vite.
