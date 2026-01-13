@@ -1,0 +1,71 @@
+.welcome
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 15vmin;
+
+  align-items: center;
+
+  background-image: linear-gradient(to bottom, #ea6262, #70323c, #391d23, #1b0c0f, #000000);
+  background: none;
+}
+
+.banner
+{
+  position: relative;
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4vmin;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.ud-logo
+{
+  width: 100%;
+  height: fit-content;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ud-logo img
+{
+  width: 41em;
+  height: 20em;
+
+  image-rendering: pixelated;
+
+  background-color: transparent;
+}
+
+/* mobile device */
+@media (max-width: 800px) {
+  .ud-logo img
+  {
+    width: 20.5em;
+    height: 10em;
+  }
+
+  .b-d-button
+  {
+    width: 3em;
+    height: 3em;
+  }
+
+  .off-screen-menu
+  {
+    padding-top: 13%;
+  }
+}

@@ -1,0 +1,29 @@
+.container
+{
+    height: 100%;
+}
+
+.video 
+{
+    height: 100%;
+    width: clamp(10rem, 50vw, 60rem);
+}
+
+.header
+{
+    padding-left: 0%;
+}
+
+/* mobile device */
+@media (max-width: 850px) {
+    .video 
+    {
+        height: 70%;
+        width: clamp(10rem, 50vw, 60rem);
+    }
+
+    .header
+    {
+        font-size: 2.5em;
+    }
+}

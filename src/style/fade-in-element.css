@@ -1,0 +1,10 @@
+.fade-in-element {
+  opacity: 0;
+  transform: translateY(40px); /* Optional: add a slight upward movement */
+  transition: opacity 0.5s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-element.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

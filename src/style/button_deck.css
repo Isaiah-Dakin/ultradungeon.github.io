@@ -1,0 +1,49 @@
+.b-deck
+{
+    width: 100%;
+    height: fit-content;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4vmin;
+
+    justify-content: center;
+}
+
+.b-d-button
+{
+    position: relative;
+    width: 4em;
+    height: 4em;
+
+    border-radius: 30%;
+    box-shadow: 0px 15px 55px black;
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: all .18s ease;
+}
+
+.b-d-button:hover
+{
+    transform: translateY(-10px); 
+}
+
+.b-d-button button
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    border-style: none;
+    background: transparent;
+}
+
+.b-d-button img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    border: none;
+}

@@ -1,0 +1,58 @@
+.carousel
+{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    height: 400vh;
+    position: sticky;
+}
+
+.content-container
+{
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.news-item-container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.news-items
+{
+    height: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5vmin;
+    padding: 0 4rem 0 4rem;
+}
+
+.hs-title
+{
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+
+    font-size: 5em;
+    line-height: 1.1;
+
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+/* mobile device */
+@media (max-width: 850px) {
+    .hs-title
+    {
+        padding-left: 4%;
+        text-align: center;
+        font-size: 3.2em;
+    }
+}

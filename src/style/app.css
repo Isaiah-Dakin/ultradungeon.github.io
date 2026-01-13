@@ -1,0 +1,94 @@
+.box
+{
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+
+  background: none;
+  border: none;
+}
+
+.sub-box-1
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    gap: 3vmin;
+
+    background: none;
+}
+
+.background
+{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.background img
+{
+  width: 100%;
+  height: 100%;
+
+  filter: brightness(55%);
+
+  background-position: center;
+  object-fit: cover;
+  image-rendering: pixelated;
+
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.sub-box-1-1
+{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  gap: 3vmin;
+
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 6rem;
+
+  background: none;
+}
+
+.background
+{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.footer
+{
+  width: 100%;
+  height: fit-content;
+
+  padding-bottom: 3vmin;
+
+  font-size: 1.9em;
+  text-align: center;
+}
+
+/* mobile device */
+@media (max-width: 850px) {
+    .sub-box-2, .sub-box-3
+    {
+        gap: 10vmin;
+    }
+}

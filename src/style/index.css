@@ -1,0 +1,105 @@
+:root 
+{
+  font-family: "Jersey 10", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.85);
+
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body, html
+{
+  height: 100%;
+}
+
+h1 
+{
+  width: 100%;
+
+  font-size: 5em;
+  line-height: 1.1;
+
+  padding-left: 4%;
+
+  background-image: linear-gradient(#fcef8d, #a32858);
+  color: transparent;
+  background-clip: text;
+}
+
+h2
+{
+  width: 100%;
+
+  font-size: 1.9em;
+
+  background-image: linear-gradient(#fcef8d, #a32858);
+  color: transparent;
+  background-clip: text;
+}
+
+p
+{
+  width: 100%;
+
+  word-break: break-all;
+  text-align: left;
+  font-size: 2.5em;
+
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+a 
+{
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover 
+{
+  color: #ea6262;
+  font-weight: 700;
+}
+
+/* mobile device */
+@media (max-width: 850px) {
+  p
+  {
+    font-size: 1.8em;
+  }
+
+  h1
+  {
+    padding-left: 0;
+    text-align: center;
+    font-size: 3.2em;
+  }
+
+  h2
+  {
+    font-size: 1.5em;
+  }
+}
