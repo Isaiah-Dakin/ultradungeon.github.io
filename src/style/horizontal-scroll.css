@@ -55,4 +55,49 @@
         text-align: center;
         font-size: 3.2em;
     }
+
+    /* restructure for mobile */
+    .hs-title
+    {
+        position: relative;
+    }
+
+    .carousel
+    {
+        height: fit-content;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .content-container
+    {
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news-item-container
+    {
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-items
+    {
+        height: fit-content;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
 }

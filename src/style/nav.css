@@ -62,7 +62,7 @@
 .ham-menu:hover
 {
     cursor: pointer;
-    border: 1px solid #ea6262;
+    border: 1px solid white;
 }
 
 .ham-menu span

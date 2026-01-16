@@ -18,8 +18,13 @@
 @media (max-width: 850px) {
     .video 
     {
-        height: 70%;
-        width: clamp(10rem, 50vw, 60rem);
+        height: 65%;
+        width: 100%;
+    }
+
+    .container
+    {
+        width: 100%;
     }
 
     .header

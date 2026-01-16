@@ -87,8 +87,8 @@
 
 /* mobile device */
 @media (max-width: 850px) {
-    .sub-box-2, .sub-box-3
+    .footer
     {
-        gap: 10vmin;
+      padding-bottom: 10vmin;
     }
 }

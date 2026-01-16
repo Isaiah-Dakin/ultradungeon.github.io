@@ -7,9 +7,8 @@
   display: flex;
   flex-direction: column;
 
-  padding-top: 15vmin;
-
   align-items: center;
+  justify-content: center;
 
   background-image: linear-gradient(to bottom, #ea6262, #70323c, #391d23, #1b0c0f, #000000);
   background: none;
@@ -42,10 +41,11 @@
 
 .ud-logo img
 {
-  width: 41em;
-  height: 20em;
+  width: 55em;
+  height: 25em;
 
   image-rendering: pixelated;
+  object-fit: cover;
 
   background-color: transparent;
 }
@@ -54,8 +54,8 @@
 @media (max-width: 800px) {
   .ud-logo img
   {
-    width: 20.5em;
-    height: 10em;
+    width: 23em;
+    height: 10.5em;
   }
 
   .b-d-button
