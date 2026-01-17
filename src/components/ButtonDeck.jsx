@@ -20,9 +20,9 @@ function ButtonDeck()
                 <button onClick={() => window.location.href='https://www.youtube.com/channel/UCGIHwsY0BKGbMACW2ux8R4w'} />
             </div>
 
-            <div className="b-d-button" title="discord/ultradungeon (COMING SOON)" alt="Logo is owned by Discord.">
+            <div className="b-d-button" title="discord/ultradungeon" alt="Logo is owned by Discord.">
                 <img src={discord}/>
-                <button onClick={() => window.location.href=''} />
+                <button onClick={() => window.location.href='https://discord.gg/VGUFkjXJFA'} />
             </div>
 
             <div className="b-d-button" title="steam/ultradungeon (COMING SOON)" alt="Logo is owned by Valve.">

@@ -1,3 +1,19 @@
+:root
+{
+    --clr-1: #a32858;
+    --clr-2: #cc425e;
+    --clr-3: #ea6262;
+    --clr-4: #ffb879;
+    --clr-5: white;
+}
+
+@property --gradient-angle
+{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
 .container
 {
     height: 100%;
@@ -18,17 +34,51 @@
 @media (max-width: 850px) {
     .video 
     {
-        height: 65%;
+        height: 70%;
         width: 100%;
     }
 
     .container
     {
+        position: relative;
+        height: 85vmin;
         width: 100%;
+
+        background-color: #0a0a0a;
+        border-radius: 1px;
     }
 
     .header
     {
         font-size: 2.5em;
+    }
+
+    .container::before,
+    .container::after
+    {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        inset: -0.5rem;
+        background: conic-gradient(
+            from var(--gradient-angle),
+            var(--clr-2),
+            var(--clr-3),
+            var(--clr-4),
+            var(--clr-3),
+            var(--clr-2));
+        border-radius: inherit;
+        animation: rotation 5s linear infinite;
+    }
+
+    .about-card::after
+    {
+    filter: blur(3rem);
+    }
+
+    @keyframes rotation
+    {
+        0% { --gradient-angle: 0deg }
+        100% { --gradient-angle: 360deg }
     }
 }

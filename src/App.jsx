@@ -50,8 +50,9 @@ function App()
             <HorizontalScroll/>
           </FadeInOnScroll>
 
-          <h1 id='about'>WHAT IS ULTRADUNGEON?</h1>
+         
           <FadeInOnScroll>
+            <h1 id='about'>WHAT IS ULTRADUNGEON?</h1>
             <div className="sub-box-1-1">
               <About>
                 <p className='full-p'>
